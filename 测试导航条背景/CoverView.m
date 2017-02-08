@@ -35,7 +35,7 @@
 
 - (void)initUI{
     
-    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
     [self addSubview:label];
     label.backgroundColor = [UIColor whiteColor];
     
