@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+LogN.h"
+
 
 @interface ViewController ()
 
@@ -14,9 +16,23 @@
 
 @implementation ViewController
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    [self.navigationController.navigationBar setBackgroundColor:[UIColor clearColor]];
+    [self.navigationController.navigationBar setShadowImage:[UIImage imageFromColor:[UIColor clearColor]]];
+    self.navigationController.navigationBar.barTintColor = [UIColor clearColor];
+    
+    
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.view setBackgroundColor:[UIColor redColor]];
+    
 }
 
 

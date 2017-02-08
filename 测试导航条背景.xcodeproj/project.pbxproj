@@ -15,6 +15,7 @@
 		A733AB7B1E4AC27300C3FAC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A733AB791E4AC27300C3FAC1 /* LaunchScreen.storyboard */; };
 		A733AB861E4AC27300C3FAC1 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A733AB851E4AC27300C3FAC1 /* _______Tests.m */; };
 		A733AB911E4AC27300C3FAC1 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A733AB901E4AC27300C3FAC1 /* _______UITests.m */; };
+		A733ABA01E4AC31200C3FAC1 /* UIImage+LogN.m in Sources */ = {isa = PBXBuildFile; fileRef = A733AB9F1E4AC31200C3FAC1 /* UIImage+LogN.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A733AB8C1E4AC27300C3FAC1 /* 测试导航条背景UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试导航条背景UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A733AB901E4AC27300C3FAC1 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		A733AB921E4AC27300C3FAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A733AB9E1E4AC31200C3FAC1 /* UIImage+LogN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LogN.h"; sourceTree = "<group>"; };
+		A733AB9F1E4AC31200C3FAC1 /* UIImage+LogN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LogN.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A733AB6F1E4AC27300C3FAC1 /* AppDelegate.m */,
 				A733AB711E4AC27300C3FAC1 /* ViewController.h */,
 				A733AB721E4AC27300C3FAC1 /* ViewController.m */,
+				A733AB9E1E4AC31200C3FAC1 /* UIImage+LogN.h */,
+				A733AB9F1E4AC31200C3FAC1 /* UIImage+LogN.m */,
 				A733AB741E4AC27300C3FAC1 /* Main.storyboard */,
 				A733AB771E4AC27300C3FAC1 /* Assets.xcassets */,
 				A733AB791E4AC27300C3FAC1 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A733AB731E4AC27300C3FAC1 /* ViewController.m in Sources */,
+				A733ABA01E4AC31200C3FAC1 /* UIImage+LogN.m in Sources */,
 				A733AB701E4AC27300C3FAC1 /* AppDelegate.m in Sources */,
 				A733AB6D1E4AC27300C3FAC1 /* main.m in Sources */,
 			);
