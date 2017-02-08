@@ -16,6 +16,7 @@
 		A733AB861E4AC27300C3FAC1 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A733AB851E4AC27300C3FAC1 /* _______Tests.m */; };
 		A733AB911E4AC27300C3FAC1 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A733AB901E4AC27300C3FAC1 /* _______UITests.m */; };
 		A733ABA01E4AC31200C3FAC1 /* UIImage+LogN.m in Sources */ = {isa = PBXBuildFile; fileRef = A733AB9F1E4AC31200C3FAC1 /* UIImage+LogN.m */; };
+		A733ABA31E4AE75100C3FAC1 /* CoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = A733ABA21E4AE75100C3FAC1 /* CoverView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A733AB921E4AC27300C3FAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A733AB9E1E4AC31200C3FAC1 /* UIImage+LogN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LogN.h"; sourceTree = "<group>"; };
 		A733AB9F1E4AC31200C3FAC1 /* UIImage+LogN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LogN.m"; sourceTree = "<group>"; };
+		A733ABA11E4AE75100C3FAC1 /* CoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverView.h; sourceTree = "<group>"; };
+		A733ABA21E4AE75100C3FAC1 /* CoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				A733AB6F1E4AC27300C3FAC1 /* AppDelegate.m */,
 				A733AB711E4AC27300C3FAC1 /* ViewController.h */,
 				A733AB721E4AC27300C3FAC1 /* ViewController.m */,
+				A733ABA11E4AE75100C3FAC1 /* CoverView.h */,
+				A733ABA21E4AE75100C3FAC1 /* CoverView.m */,
 				A733AB9E1E4AC31200C3FAC1 /* UIImage+LogN.h */,
 				A733AB9F1E4AC31200C3FAC1 /* UIImage+LogN.m */,
 				A733AB741E4AC27300C3FAC1 /* Main.storyboard */,
@@ -281,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A733ABA31E4AE75100C3FAC1 /* CoverView.m in Sources */,
 				A733AB731E4AC27300C3FAC1 /* ViewController.m in Sources */,
 				A733ABA01E4AC31200C3FAC1 /* UIImage+LogN.m in Sources */,
 				A733AB701E4AC27300C3FAC1 /* AppDelegate.m in Sources */,

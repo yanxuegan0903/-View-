@@ -22,9 +22,10 @@
     
     ViewController * vc = [ViewController new];
     
-    UINavigationController * navi = [[UINavigationController alloc]initWithRootViewController:vc];
+    UINavigationController * navi = [[UINavigationController alloc] initWithRootViewController:vc];
     
     self.window.rootViewController = navi;
+    
     
     
     

@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "UIImage+LogN.h"
-
+#import "CoverView.h"
 
 @interface ViewController ()
 
@@ -21,7 +21,15 @@
     
     [self.navigationController.navigationBar setBackgroundColor:[UIColor clearColor]];
     [self.navigationController.navigationBar setShadowImage:[UIImage imageFromColor:[UIColor clearColor]]];
-    self.navigationController.navigationBar.barTintColor = [UIColor clearColor];
+//    self.navigationController.navigationBar.barTintColor = [UIColor clearColor];
+    
+    
+    
+    
+    NSLog(@"height = %f",self.view.bounds.size.height);
+    
+    NSLog(@"screenHeight = %f",[UIScreen mainScreen].bounds.size.height);
+    
     
     
 }
@@ -31,7 +39,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self.view setBackgroundColor:[UIColor redColor]];
+    [self.view setBackgroundColor:[UIColor purpleColor]];
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    
+    CoverView * coverView = [[CoverView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:coverView];
+    
+    
+    
     
 }
 
